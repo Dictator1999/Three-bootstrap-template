@@ -1,0 +1,65 @@
+
+body{
+    background: #fff;
+    color: #fff;
+}
+.navbar{
+    border-bottom: 3px solid #0366D0;
+    background: #2A2C2CCC;
+}
+.card input[type='text'],.card input[type='password']{
+    background: #D0D1D1;
+}
+section{
+    margin-bottom: -24px;
+}
+#home{
+
+    background: url('../img/home.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+}
+
+#home .dark-overlay{
+    background: rgba(0, 0, 0, 0.65);
+    min-height: 700px;
+}
+#home .fa{
+    color: #007BFF;
+    font-size: 30px;
+    padding: 4px;
+    background: #fff;
+    margin-top:0px;
+    border-radius: 6px;
+}
+#home .home-inner {
+    padding-top: 140px;
+    padding-bottom: 10px;
+}
+
+.explore span{
+    font-size: 30px;
+    border-radius: 6px;
+}
+.create span{
+    font-size: 30px;
+    border-radius: 6px;
+}
+.share span{
+    font-size: 30px;
+    border-radius: 6px;
+}
+
+@media (max-width: 480px) {
+    #home h1{
+        font-size: 35px;
+    }
+    #home .home-inner {
+        padding-top: 70px;
+        padding-bottom: 10px;
+    }
+    #home h1{
+        text-align: justify;
+    }
+}
